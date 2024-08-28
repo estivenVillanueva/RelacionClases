@@ -14,7 +14,7 @@ public class Main {
 
         Scanner s = new Scanner(System.in);
         System.out.print("Ingrese una descripción de la factura: ");
-        String desc = s.nextLine();factura = new Factura(desc, cliente);
+        String desc = s.nextLine(); = new Factura(desc, cliente);
 
         Producto producto;
 

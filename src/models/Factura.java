@@ -2,6 +2,8 @@ package models;
 
 import java.util.Date;
 
+import java.util.Date;
+
 public class Factura {
     private int folio;
     private String descripcion;
@@ -17,7 +19,7 @@ public class Factura {
         this.items = items;
     }
 
-        public int getFolio() {
+    public int getFolio() {
         return folio;
     }
 

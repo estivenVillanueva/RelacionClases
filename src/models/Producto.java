@@ -5,12 +5,11 @@ public class Producto {
     private String nombre;
     private double precio;
 
-    public Producto(String nombre,double precio){
-        this.codigo= codigo;
-        this.nombre =nombre;
-        this.precio=precio;
+    public Producto() {
+        this.codigo = codigo;
+        this.nombre = nombre;
+        this.precio = precio;
     }
-
 
     public String getCodigo() {
         return codigo;
